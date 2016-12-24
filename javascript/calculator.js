@@ -25,3 +25,8 @@ function clearDigit(){
 	document.getElementById("screen").value = screen.slice(0, screen.length - 1);
 }
 document.getElementsByClassName("button-clear")[0].addEventListener("click", clearDigit);
+
+function clearAllDigit(){
+	document.getElementById("screen").value = "";
+}
+document.getElementsByClassName("button-all-clear")[0].addEventListener("click", clearAllDigit);
